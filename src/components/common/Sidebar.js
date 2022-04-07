@@ -5,7 +5,7 @@ import pic1 from '../../images/rhino-horns.png';
 const Sidebar = () => {
    
   const [tabs] = React.useState([
-    { content: 'Welcome', href: 'intro' },
+   
     { content: 'Artwork', href: 'one' },
     { content: 'Bio', href: 'two' },
     { content: 'Contact', href: 'three' },
