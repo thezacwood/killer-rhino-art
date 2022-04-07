@@ -19,7 +19,7 @@ const ContactForm = () =>
       </div>
       <ul className="actions">
         <li>
-          <a href="/#" className="button submit">
+          <a href="/" className="button submit">
             Send Message
           </a>
         </li>

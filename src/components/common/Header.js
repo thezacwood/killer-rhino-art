@@ -11,14 +11,9 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/#one">&#8592; Go Back</Link>
         </li>
-        <li>
-          <Link to="/generic">Generic</Link>
-        </li>
-        <li>
-          <Link to="/elements">Elements</Link>
-        </li>
+        
       </ul>
     </nav>
   </header>

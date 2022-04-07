@@ -46,7 +46,7 @@
           border: 0;
           color: _palette(fg-light);
           display: inline-block;
-          font-size: 0.6em;
+          font-size: .75em;
           font-weight: _font(weight-bold);
           letter-spacing: _font(kerning-alt);
           text-transform: uppercase;
@@ -78,7 +78,7 @@
     }
 
     > nav {
-      border-top: solid 1px _palette(border);
+      border-top: solid 1px _palette(accent);
       text-align: inherit;
 
       > ul {

@@ -8,7 +8,7 @@ const Sidebar = () => {
     { content: 'Welcome', href: 'intro' },
     { content: 'Artwork', href: 'one' },
     { content: 'Bio', href: 'two' },
-    { content: 'Get in touch', href: 'three' },
+    { content: 'Contact', href: 'three' },
   ]);
 
   return (

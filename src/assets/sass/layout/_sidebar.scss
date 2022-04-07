@@ -165,6 +165,7 @@
       @include vendor('align-items', 'stretch');
       height: inherit;
       line-height: inherit;
+        > img {text-align: center;padding:5px;margin-left:5px;width:100%;max-width:90px;}
     }
 
     nav {
@@ -181,7 +182,7 @@
           display: block;
           height: inherit;
           line-height: inherit;
-          margin: 0 0 0 2em;
+          margin: 0 5px 0 2em;
           padding: 0;
         }
       }
@@ -200,6 +201,6 @@
   }
 
   @include breakpoint('<=small') {
-    display: none;
+   // display: none;
   }
 }

@@ -6,12 +6,11 @@ const ContactInformation = () =>
       
       <li>
         <h3>Email</h3>
-        <a href="/#">user@untitled.tld</a>
+        <a href="mailto:ryan@killerrhinoart.com">ryan@killerrhinoart.com</a>
       </li>
-      <li>
-        <h3>Phone</h3>
-        <span>(000) 000-0000</span>
-      </li>
+     <li>
+      <span>(000) 000-0000</span>
+     </li>
       <li>
         <h3>Social</h3>
         <ul className="icons">
