@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactForm = () =>
   <section>
-    <form method="post" action="#" netlify>
+    <form name="contact" method="POST" data-netlify="true">
       <div className="fields">
         <div className="field half">
           <label htmlFor="name">Name</label>
@@ -19,9 +19,8 @@ const ContactForm = () =>
       </div>
       <ul className="actions">
         <li>
-          <a href="/" className="button submit">
-            Send Message
-          </a>
+        <button type="submit" className="button submit">Send Message</button>
+          
         </li>
       </ul>
     </form>
