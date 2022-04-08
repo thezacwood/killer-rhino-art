@@ -4,6 +4,10 @@ import rhinos1 from '../images/RyansRhinos-006.jpg';
 import rhinos2 from '../images/RyansRhinos-008.jpg';
 import rhinos3 from '../images/RyansRhinos-033.jpg';
 import rhinos4 from '../images/RyansRhinos-069.jpg';
+import rhinos5 from '../images/ryansrhinos-020.jpg';
+import rhinos6 from '../images/ryansrhinos-022.jpg';
+import rhinos7 from '../images/ryansrhinos-026.jpg';
+import rhinos8 from '../images/ryansrhinos-050.jpg';
 import Layout from '../components/common/layout';
 import Footer from '../components/common/Footer';
 import Header from '../components/common/Header';
@@ -37,6 +41,18 @@ I did this 5 piece series to bring awareness to the problem. I would hate for my
           </span>
     <span className="image fit">
             <img src={rhinos4} alt="" />
+          </span>
+ <span className="image fit">
+            <img src={rhinos5} alt="" />
+          </span>
+ <span className="image fit">
+            <img src={rhinos6} alt="" />
+          </span>
+ <span className="image fit">
+            <img src={rhinos7} alt="" />
+          </span>
+ <span className="image fit">
+            <img src={rhinos8} alt="" />
           </span>
         </div>
       </section>
