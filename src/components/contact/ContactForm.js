@@ -22,6 +22,7 @@ const ContactForm = () =>
         <button type="submit" className="button submit">Send Message</button>
           
         </li>
+<input type="hidden" name="form-name" value="killer-rhino-contact" />
       </ul>
     </form>
   </section>
